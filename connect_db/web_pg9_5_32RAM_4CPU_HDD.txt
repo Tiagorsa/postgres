@@ -1,0 +1,21 @@
+# DB Version: 9.5
+# OS Type: linux
+# DB Type: web
+# Total Memory (RAM): 31 GB
+# CPUs num: 4
+# Connections num: 20
+# Data Storage: hdd
+
+max_connections = 20
+shared_buffers = 7936MB
+effective_cache_size = 23808MB
+maintenance_work_mem = 1984MB
+checkpoint_completion_target = 0.7
+wal_buffers = 16MB
+default_statistics_target = 100
+random_page_cost = 4
+effective_io_concurrency = 2
+work_mem = 203161kB
+min_wal_size = 1GB
+max_wal_size = 2GB
+max_worker_processes = 4
